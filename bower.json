@@ -1,0 +1,14 @@
+{
+  "name": "bower-creative-agency-bootstrap",
+  "description": "My first gulp project",
+  "main": "gulpfile.js",
+  "author": "anton",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "foundation-sites": "^6.4.3"
+  }
+}

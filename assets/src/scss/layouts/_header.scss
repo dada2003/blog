@@ -1,0 +1,44 @@
+.header {
+  min-height: 80vh;
+  background-image: url(../../../../img/bunner.png);
+  background-size: cover;
+  margin-bottom: 50px;
+  &__container {
+    @include make-container();
+    @include make-container-max-widths();
+  }
+  &__logo--h {
+    @include creative-title;
+    font-size: 18px;
+  }
+  &__humburger {
+    color: #60606e;
+    font-size: 20px;
+    text-align: right;
+    &:hover {
+      text-decoration: none;
+      color: #60606e;
+    }
+  }
+  &__breadcrumb {
+    background-color: transparent;
+    @include creative-subtitle;
+    font-size: 15px;
+  }
+  &__title {
+    @include creative-title;
+
+  }
+  &__wrap {
+    padding-top: 10em;
+     min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.nav-link{
+  text-decoration: none;
+  color: #60606e;
+}

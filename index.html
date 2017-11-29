@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/src/scss/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/dist/css/style.css">
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+
+            <div class="header__logo col-10"><h2 class="header__logo--h">acad.</h2></div>
+            <div class="header__humburger col-2">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__wrap col-12">
+                <h2 class="header__title">blog posts</h2>
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class=" header__breadcrumb breadcrumb col-12">
+                        <li class="header__breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="header__breadcrumb-item active" aria-current="page"><a href="#">blog</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="mainblock">
+    <div class="container">
+        <div class="row">
+            <div class="mainblock__img col">
+                <img src="img/layer-9.png" alt="mountain">
+            </div>
+            <div class="col">
+
+                <div class="mainblock__search col">
+                    <div id="custom-search-input col">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-lg" placeholder="search..">
+                            <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainblock__title col">
+                    <h2>posts</h2>
+                </div>
+                <div class="mainblock__tabs col">
+                    <ul class="nav pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                               role="tab" aria-selected="true">latest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                               role="tab" aria-controls="pills-profile" aria-selected="false">popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                               role="tab" aria-controls="pills-contact" aria-selected="false">Comments</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                             aria-labelledby="pills-home-tab ">
+                            <div class="tab__wrap">
+                                <img src="img/layer-5.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                            <div class="tab__wrap">
+                                <img src="img/layer-6.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                            <div class="tab__wrap">
+                                <img src="img/layer-7.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                             aria-labelledby="pills-profile-tab ">
+                            <div class="tab__wrap">
+                                <img src="img/layer-6.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                            <div class="tab__wrap">
+                                <img src="img/layer-6.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                            <div class="tab__wrap">
+                                <img src="img/layer-7.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                             aria-labelledby="pills-contact-tab ">
+                            <div class="tab__wrap">
+                                <img src="img/layer-7.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                            <div class="tab__wrap">
+                                <img src="img/layer-6.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                            <div class="tab__wrap">
+                                <img src="img/layer-7.png" alt="mout">
+                                <p class="tab__wrap--title">Magna mollis ultricies
+                                    <span class="tab__wrap--sub">3th oct 2012</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainblock__text col-8">
+
+                <div class="mainblock__submenu--group">
+                <button class="mainblock__submenu--btn">October 13, 2015</button>
+                <a href="#" class="ion-chatbox-working mainblock__submenu--icon"></a><span class="t">8</span>
+                <a href="#" class="ion-heart mainblock__submenu--icon2"></a><span class="h">15</span>
+                </div>
+
+            <div class="mainblock__submenu--par">
+                <h2 class="">THE BIG LEAGUES OUR TURN STRAIGHTNIN</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <h3>continue reading<span class="ion-arrow-right-c"></span> </h3>
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="secodary">
+            <div class="row">
+                <div class="secondary__img col">
+                    <img src="img/layer-9.png" alt="mountain">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="assets/dist/javascript/global.js"></script>
+
+
+</body>
+</html>
